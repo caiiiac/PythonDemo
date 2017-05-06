@@ -3,6 +3,7 @@
 
 import math
 
+
 def daishu(a,b,c):
 	if not (isinstance(a,(int,float)) and isinstance(b,(int,float)) and isinstance(c,(int,float))):
 		raise TabError('输入类型错误')
